@@ -14,8 +14,9 @@
 
 
 ## 🎮 训练与游戏
-
-![游戏演示](images/game.png)
+<p align="center">
+  <img src="images/game.png" alt="游戏演示" width="600">
+</p>
 
 
 ## 🗂️ 项目结构
