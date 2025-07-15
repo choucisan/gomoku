@@ -1,4 +1,4 @@
-[images/Tic.png]
+![](images/Tic.png)
 
 
 # 基于强化学习训练 MLP 感知机进行井字棋游戏决策
