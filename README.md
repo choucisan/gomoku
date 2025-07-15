@@ -27,7 +27,7 @@
 ├── model/ 
 │   ├── mlp.cpp             # 多层感知机模型
 │   └── mlp.h 
-├── images/                  # 项目图片  
+├── images/                 # 项目图片  
 ├── train.cpp               # 模型训练
 ├── README.md               # 项目说明
 └── Makefile                # 编译脚本
