@@ -59,6 +59,8 @@ void train_against_random(mlp &model, int num_games) {
 
 int main(int argc, char** argv) {
 
+    int random_games = 100000;
+
     if (argc > 1) {
         random_games = atoi(argv[1]);
     }
