@@ -1,44 +1,45 @@
 ![](images/Tic.png)
 
 
-# 基于强化学习训练 MLP 感知机进行井字棋游戏决策
+# Tic-Tac-Toe Decision Making with MLP via Reinforcement Learning
 
-用 C++ 实现基于强化学习、使用多层感知机（MLP）作为策略模型，让智能体通过对弈学习井字棋（Tic-Tac-Toe）游戏的最佳策略。
-
-## 🔍 项目简介
-
-- 使用强化学习方法训练智能体。
-- 模型结构为简单的多层感知机（MLP），输入为当前棋盘状态，输出为各个落子位置的估值或概率。
-- 训练过程中，智能体通过vs随机决策，学习胜负反馈，不依赖预定义规则。
+This project implements a reinforcement learning agent using a Multi-Layer Perceptron (MLP) as the policy model in C++.
+The agent learns the optimal strategy for Tic-Tac-Toe through self-play.
 
 
+## 🔍 Project Overview
+- Train an agent using reinforcement learning techniques.
+- The model is a simple MLP, taking the current board state as input and outputting values or probabilities for each move.
+- During training, the agent plays against random decisions, learning from win/loss feedback without relying on predefined rules.
 
-## 🎮 训练与游戏
+
+
+## 🎮 Training & Gameplay
 <p align="center">
   <img src="images/game.png" alt="游戏演示" width="600">
 </p>
 
 
-## 🗂️ 项目结构
+## 🗂️  Project Structure
 ```
 ├── gomoku/                   
-│   ├── gomoku.cpp          # 井字棋逻辑
+│   ├── gomoku.cpp          # Tic-Tac-Toe game logic
 │   └── gomoku.h           
 ├── model/ 
-│   ├── mlp.cpp             # 多层感知机模型
+│   ├── mlp.cpp             # Multi-Layer Perceptron model
 │   └── mlp.h 
-├── images/                 # 项目图片  
-├── train.cpp               # 模型训练
-├── README.md               # 项目说明
-└── Makefile                # 编译脚本
+├── images/                 # Project images  
+├── train.cpp               # Model training
+├── README.md               # Project documentation
+└── Makefile                # Build script
 ```
 
 
 
-## 🚀 快速启动
+## 🚀  Quick Start
 
 ```bash
-# 使用 make 构建
+# Build the project using make
 make
 ```
 
